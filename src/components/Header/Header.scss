@@ -1,0 +1,33 @@
+.Header{
+    width: 100vw;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    color: #ccc;
+    justify-content: space-between;
+    align-items: center;
+
+    .log{
+        font-size: 40px;
+        font-weight: bold;
+        color: gold;
+        margin-left: 18px;
+    }
+
+    .title,.cart{
+        color: #ccc;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .cart{
+        margin-right: 18px;
+        cursor: pointer;
+        transition: 500ms;
+    }
+
+    .cart:hover{
+        color: white;
+        text-decoration: underline;
+    }
+}

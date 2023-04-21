@@ -1,0 +1,50 @@
+.CarCard{
+    border: 1px solid #7c7c7c;
+    width: 400px;
+}
+
+.CarCardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.CarImg{
+    width: 300px;
+    height: 200px;
+
+    img{
+        width: 100%;
+    }
+}
+
+.carDetails{
+    max-width: 400px;
+}
+
+.info{
+    display: flex;
+
+    
+}
+
+.item{
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.description{
+    display: flex;
+    width: 300px;
+    max-height: 50px;
+    overflow: auto;
+}
+
+.addCar{
+    width: 100px;
+    height: 50px;
+    margin-top: 18px;
+}
+
