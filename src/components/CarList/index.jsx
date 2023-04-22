@@ -1,10 +1,13 @@
+import { useState } from "react"
+
 import CarCard from "./CarCard"
-import cars from '../../assets/Cars.json'
+import carsdata from '../../assets/Cars.json'
 
 import './CarList.scss'
 
 const CarList = () => {
-    console.log(cars)
+    const [cars, setCars] = useState(carsdata)
+
     const renderCars = cars.map((car, index) => (
         <CarCard key={index}
         img={car.img}

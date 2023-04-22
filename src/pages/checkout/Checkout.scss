@@ -1,0 +1,65 @@
+.Checkout{
+    width: 80vw;
+    margin: 30px auto;
+    font-size: 24px;
+
+    h1{
+        font-size: 60px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+.formDescription{
+    h2{
+        font-size: 30px;
+        font-weight: 300;
+        margin: 10px 0;
+    }
+
+    margin: 20px 0;
+}
+
+.required::after{
+    content: '*';
+    color: red;
+    font-weight:600;
+    margin: 0 5px;
+}
+
+form{
+    margin-bottom: 50px;
+    div{
+        display: flex;
+        height: 50px;
+    }
+    
+    label{
+        display: flex;
+        flex: 1;
+        background-color: #ccd;
+        line-height: 50px;
+        padding-left: 30px;
+    }
+
+    input, select{
+        display: flex;
+        flex: 3;
+        font-size: 24px;
+        padding: 10px 30px;
+    }
+
+
+}
+
+
+.summary{
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.action{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
